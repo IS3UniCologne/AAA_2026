@@ -10,5 +10,6 @@ uv sync
 ```
 
 which will create a `.venv` virtual environment in your working directory. VSCode and other IDEs usually automatically pick that up.
+If you want to run a local Jupyter Lab instance, you can do so with `uv run jupyter lab` which will also automatically use your project's environment.
 
 A good first stop for all questions that are not subject-related but relate to how to use these kinds of tools you can have a look here (and request new guides by using issue templates): [IS3 Teaching Repository](https://github.com/IS3UniCologne/teaching-material)
